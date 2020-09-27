@@ -1,0 +1,9 @@
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\obj\Debug\RemoteClientServer.csprojAssemblyReference.cache
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\obj\Debug\RemoteClientServer.Properties.Resources.resources
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\obj\Debug\RemoteClientServer.csproj.GenerateResource.cache
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\obj\Debug\RemoteClientServer.csproj.CoreCompileInputs.cache
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\bin\Debug\RemoteClientServer.exe.config
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\bin\Debug\RemoteClientServer.exe
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\bin\Debug\RemoteClientServer.pdb
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\obj\Debug\RemoteClientServer.exe
+C:\Users\tsuku\Downloads\DigitalBreakthrough-master\RemoteClientServer\obj\Debug\RemoteClientServer.pdb

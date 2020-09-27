@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ExampleBitmaps/1.0.0": {
+        "dependencies": {
+          "MvvmCross": "6.4.2"
+        },
+        "runtime": {
+          "ExampleBitmaps.dll": {}
+        }
+      },
+      "MvvmCross/6.4.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/MvvmCross.dll": {
+            "assemblyVersion": "6.4.2.0",
+            "fileVersion": "6.4.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExampleBitmaps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MvvmCross/6.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
+      "path": "mvvmcross/6.4.2",
+      "hashPath": "mvvmcross.6.4.2.nupkg.sha512"
+    }
+  }
+}

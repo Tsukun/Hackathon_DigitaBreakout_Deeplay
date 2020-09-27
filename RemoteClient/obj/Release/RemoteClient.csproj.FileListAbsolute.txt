@@ -1,0 +1,9 @@
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\bin\Release\RemoteClient.exe.config
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\bin\Release\RemoteClient.exe
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\bin\Release\RemoteClient.pdb
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\obj\Release\RemoteClient.csprojAssemblyReference.cache
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\obj\Release\RemoteClient.Form1.resources
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\obj\Release\RemoteClient.Properties.Resources.resources
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\obj\Release\RemoteClient.csproj.GenerateResource.cache
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\obj\Release\RemoteClient.exe
+C:\Users\Пётр\Desktop\Hackathon_Deeplay-master\RemoteClientServer\obj\Release\RemoteClient.pdb

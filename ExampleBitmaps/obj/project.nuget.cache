@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sfs1v8Ts0UfdiDcphQpxTxudPgjY0GJaczhxF7EobCMpRV42OB4Zb6JZG5O4JVLfZO9+OGg1+BF7kdeGwVfWrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tsuku\\Downloads\\DigitalBreakthrough-master\\ExampleBitmaps\\ExampleBitmaps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tsuku\\.nuget\\packages\\mvvmcross\\6.4.2\\mvvmcross.6.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}
