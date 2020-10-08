@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sfs1v8Ts0UfdiDcphQpxTxudPgjY0GJaczhxF7EobCMpRV42OB4Zb6JZG5O4JVLfZO9+OGg1+BF7kdeGwVfWrQ==",
+  "dgSpecHash": "v4qkkdFfvrdCyIsVB5XIKw2pLMdFgQLodfm4NJWEwkp0mGvHEoH73iyKvKGlIBEq2c9AA8Gv7WyZ9BopvAJRVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tsuku\\Downloads\\DigitalBreakthrough-master\\ExampleBitmaps\\ExampleBitmaps.csproj",
+  "projectFilePath": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tsuku\\.nuget\\packages\\mvvmcross\\6.4.2\\mvvmcross.6.4.2.nupkg.sha512"
   ],

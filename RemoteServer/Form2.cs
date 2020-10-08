@@ -14,11 +14,9 @@ namespace RemoteServer
     {
         Server server;
         int port;
-        Form3 form3;
         public Form2(int port)
         {
             this.port = port;
-            this.form3 = new Form3();
             InitializeComponent();
           
         }
@@ -27,10 +25,9 @@ namespace RemoteServer
         {
             base.OnLoad(e);
           
-            form3.Show();
 
             //Запуск сервера
-            server = new Server(pictureBox1, form3.textBox1, port);
+            server = new Server(pictureBox1, port);
             server.Listening.Start();
         }
 

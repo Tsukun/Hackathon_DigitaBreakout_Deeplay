@@ -105,7 +105,7 @@ namespace RemoteClient
                 encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, imageQuality);
                 screenshot.Save(mss, GetEncoder(ImageFormat.Jpeg), encoderParameters);
 
-                bytes = mss.GetBuffer();
+                bytes = mss.ToArray();
                 screenshot.Dispose();
                 mss.Close();
 

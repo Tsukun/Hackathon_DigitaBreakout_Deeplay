@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Пётр\\.nuget\\packages\\": {},
+    "C:\\Users\\tsuku\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleButtons\\ExampleButtons.csproj",
+      "projectUniqueName": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleButtons\\ExampleButtons.csproj",
       "projectName": "ExampleButtons",
-      "projectPath": "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleButtons\\ExampleButtons.csproj",
-      "packagesPath": "C:\\Users\\Пётр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleButtons\\obj\\",
+      "projectPath": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleButtons\\ExampleButtons.csproj",
+      "packagesPath": "C:\\Users\\tsuku\\.nuget\\packages\\",
+      "outputPath": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleButtons\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Пётр\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tsuku\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

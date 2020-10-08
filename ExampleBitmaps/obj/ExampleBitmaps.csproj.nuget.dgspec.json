@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj": {}
+    "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj": {
+    "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj",
+        "projectUniqueName": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj",
         "projectName": "ExampleBitmaps",
-        "projectPath": "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj",
-        "packagesPath": "C:\\Users\\Пётр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Пётр\\Desktop\\ыа\\Hackathon_Deeplay\\ExampleBitmaps\\obj\\",
+        "projectPath": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleBitmaps\\ExampleBitmaps.csproj",
+        "packagesPath": "C:\\Users\\tsuku\\.nuget\\packages\\",
+        "outputPath": "D:\\Deeplay\\Hackathon_DigitaBreakout_Deeplay\\ExampleBitmaps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Пётр\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tsuku\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

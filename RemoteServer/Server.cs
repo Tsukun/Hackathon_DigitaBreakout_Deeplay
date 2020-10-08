@@ -29,12 +29,11 @@ namespace RemoteServer
         int bytesReceived, totalReceived = 0;
         byte[] receivedData = new byte[1024 * 600];
         byte[] receivedDataText = new byte[1024 * 600];
-        public Server(PictureBox pctr, TextBox tBox, int port = 8888)
+        public Server(PictureBox pctr, int port = 8888)
         {
 
             this.port = port;
             this.picture = pctr;
-            this.textBox = tBox;
             client = new TcpClient();
             server = new TcpListener(IPAddress.Any, port);
             Listening = new Thread(ServerStart);
