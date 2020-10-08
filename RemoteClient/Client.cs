@@ -13,6 +13,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using Encoder = System.Drawing.Imaging.Encoder;
 using System.Runtime.InteropServices;
+using System.Text.Json;
 
 namespace RemoteClient
 {
@@ -55,6 +56,10 @@ namespace RemoteClient
         private static byte[] bytes;
         private long imageQuality;
 
+        public class DeeplayData
+        {
+           public byte[] byteImage { get;set;}
+        }
         public Client(string server, int port)
         {
             this.server = server;
@@ -107,6 +112,7 @@ namespace RemoteClient
 
                 bytes = mss.ToArray();
                 screenshot.Dispose();
+                mss.Dispose();
                 mss.Close();
 
                 return bytes;
@@ -131,22 +137,24 @@ namespace RemoteClient
             switch (imgQuality)
             {
                 case "Low":
-                    imageQuality = 24L;
+                    imageQuality = 6L;
                     break;
                 case "Middle":
-                    imageQuality = 48L;
+                    imageQuality = 12L;
                     break;
                 case "High":
-                    imageQuality = 64L;
+                    imageQuality = 24L;
                     break;
                 default:
-                    imageQuality = 48L;
+                    imageQuality = 12L;
                     break;
             }
             try
             {
                 //Отправка байтов изображения на сервер
                 mainStream = client.GetStream();
+                DeeplayData dbytes = new DeeplayData();
+                byte[] jsonBytes;
                 framesSent += 1;
                 int lenght = 0;
                 if (grabType == "Active Window")
@@ -157,7 +165,10 @@ namespace RemoteClient
                 else if(grabType == "Screen")
                 {
                     lenght = CaptureDesktop().Length;
-                    mainStream.Write(CaptureDesktop(), 0, lenght);
+                    dbytes.byteImage = CaptureDesktop();
+                    jsonBytes = JsonSerializer.SerializeToUtf8Bytes(dbytes);
+
+                    mainStream.Write(jsonBytes, 0, jsonBytes.Length);
                 }
                 Console.WriteLine("Client. Bytes sent:" + lenght.ToString());
                 mainStream.Flush();

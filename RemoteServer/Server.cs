@@ -9,6 +9,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Drawing;
 using System.Windows.Forms;
 using System.IO;
+using System.Text.Json;
 
 namespace RemoteServer
 {
@@ -29,6 +30,12 @@ namespace RemoteServer
         int bytesReceived, totalReceived = 0;
         byte[] receivedData = new byte[1024 * 600];
         byte[] receivedDataText = new byte[1024 * 600];
+
+        public class DeeplayData
+        {
+            public byte[] byteImage { get; set; }
+        }
+
         public Server(PictureBox pctr, int port = 8888)
         {
 
@@ -87,7 +94,7 @@ namespace RemoteServer
         //Получение изображения с клиента
         public void ReceiveImage()
         {
-           
+            DeeplayData temp;
             while (client.Connected)
             {
                 //Считываем данные из потока
@@ -97,7 +104,10 @@ namespace RemoteServer
                     bytesReceived = mainStream.Read(receivedData, 0, receivedData.Length);
                     try
                     {
-                        var image = Image.FromStream(new MemoryStream(receivedData));
+                        var utf8Reader = new Utf8JsonReader(receivedData);
+                        temp = JsonSerializer.Deserialize<DeeplayData>(ref utf8Reader);
+                        
+                        var image = Image.FromStream(new MemoryStream(temp.byteImage));
                         picture.Image = image;
                     }
                     catch (Exception e)
